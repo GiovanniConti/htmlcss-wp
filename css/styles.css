@@ -49,9 +49,11 @@ a{
 }
 
 .containerHero{
-    width: 100%;
     height: 40%;
     background-image: url(../img/banner.jpg);
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center; 
     margin-bottom: 25px;
     position: relative;
 
