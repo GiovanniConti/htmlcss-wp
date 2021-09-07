@@ -93,20 +93,23 @@ a{
 .containerMain{
     width: auto;
     height: calc(60% - 25px);
-    background-color: rgb(56, 139, 242);
 }
 
 
-.containerMain div:first-child{
-    width: auto;
+.mainTitle{
     height: calc(100% / 8);
-    background-color: rgb(178, 206, 228);
-    margin-bottom: 20px;
+    padding: 20px 0;
 }
 
-.containerMainProperties{
+
+
+.containerFloat{
+    height: calc(100% - 13%);;
+}
+
+.containerFloatProperties{
     width: calc(20% - 10px);
-    height: calc(100% - 13% - 40px);
+    height: 100%;
     background-color: rgb(178, 206, 228);
     float: left;
 }
