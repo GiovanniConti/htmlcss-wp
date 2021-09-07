@@ -46,6 +46,7 @@ a{
     margin: 0 120px;
     width: auto;
     height: 1700px;
+    overflow: auto;
 }
 
 .containerHero{
